@@ -4,62 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-       <div>
-        <ul>
+    <header class="header">
+        <h1 class="logo">Weslley Cesar</h1>
+       <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#inicio">Início</a></li>
             <li><a href="#Sobre">Sobre</a></li>
             <li><a href="#Tecnologia">Tecnologia</a></li>
             <li><a href="#Projetos">Projetos</a></li>
-       </div>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>Olá, eu sou Weslley Cesar.
-            Desenvolvedor Front-End Júnior em formação.</h2>
+        <section class= "escondido" id="inicio">
+            <p>Bem-vindo ao meu portfólio</p>
+            <h1>Olá, eu sou Weslley Cesar.</h1>
+            <h2>Desenvolvedor Front-End Júnior em formação.</h2>
+            <a href="#Projetos" class="btn">Ver meus projetos</a>
         </section>
 
-        <section>
+        <section class= "escondido sobre" id="Sobre">
             <h2>Sobre</h2>
-            <p>Estudante de Análise e Desenvolvimento de Sistemas, retomando meus estudos em programação e buscando minha primeira oportunidade profissional na área de desenvolvimento web.
-                Desenvolvir projetos durantes meus estudos iniciais, com o objetivo de aprimorar minhas habilidades e conhecimentos.
-                Infelizmente parei de estudar por um tempo, e depois veio uma rotina de trabalho junto com estagio, e não conseguir voltar. But agora estou retomando e com muito foco e determinação para alcançar meus objetivos.
-            </p>
+            <p>
+    Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em
+    desenvolvimento web e Front-End.
+
+    Durante meus estudos, desenvolvi projetos utilizando HTML, CSS e JavaScript,
+    buscando colocar em prática meus conhecimentos e aprimorar minhas habilidades.
+
+    Após um período afastado dos estudos devido à minha rotina de trabalho e
+    estágio, estou retomando a programação com foco, dedicação e vontade de
+    aprender cada vez mais.
+
+    Atualmente, busco minha primeira oportunidade profissional na área de
+    desenvolvimento web, onde possa aplicar meus conhecimentos, aprender com
+    profissionais da área e continuar evoluindo.
+</p>
         </section>
 
-        <section>
+        <section class= "escondido tecnologia" id="Tecnologia">
+            <div class="titulo-tecnologia">
             <h2>Tecnologia</h2>
+            </div>
+            <div class="tecnologia-card">
             <h3>HTML</h3>
             <p>
                Estrutura e semântica
             </p>
+            </div>
+             <div class="tecnologia-card">
             <h3>CSS</h3>
             <p>
                 Estilização e layout
             </p>
+            </div>
+            <div class="tecnologia-card">
             <h3>JavaScript</h3>
             <p>
                 Lógica, DOM, eventos e consumo de APIs. 
                 </p>
+                </div>
+                <div class="tecnologia-card">
                 <h3>Em aprendizado</h3>
-                <p>
-                    Python, React, Git e GitHub.
-                </p>
+<p>
+    Python e React
+</p>
+                </div>
         </section>
 
-        <section>
+        <section class= "escondido projetos" id="Projetos">
             <h2>Projetos</h2>
-            <h3>Receita Rápidas</h3>
-            <p>
-                Usuario pode pesquisar pelo um prato e receber uma receita e de como preparar o prato pesquisado.
-            </p>
-            <p>
-            
-            </p>
+            <div class="projetos-container">
+        
+            </div>
+            <div class="projeto-card">
+    <h3>Receitas Rápidas</h3>
+
+    <p>
+        Aplicação web que gera receitas com inteligência artificial,
+    utilizando JavaScript, consumo de APIs e um backend em Node.js.
+    </p>
+
+    <span>HTML • CSS • JavaScript</span>
+    <div class="projeto-links">
+        <a href="https://buscador-receita.netlify.app" target="_blank">Ver projeto</a>
+        <a href="https://github.com/Weslley133/Buscador-Receita" target="_blank">GitHub</a>
+    </div>
+</div>
+<div class="projeto-card">
+    <h3>Previsão do Tempo</h3>
+
+    <p>
+         Aplicação web que permite pesquisar uma cidade e consultar dados
+        meteorológicos em tempo real através de uma API.
+    </p>
+
+    <span>HTML • CSS • JavaScript • Node.js • APIs</span>
+
+    <div class="projeto-links">
+        <a href="#" target="_blank">Ver projeto</a>
+        <a href="#" target="_blank">GitHub</a>
+    </div>
+</div>
         </section>
+        
+        <section class="escondido Contato" id="Contato">
+    <h2>Contato</h2>
+
+    <p>E-mail: cesarweslley133@gmail.com</p>
+    <p>WhatsApp: (83) 9 9333-4682</p>
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/weslley-nascimento-9347b1186" target="_blank">Meu perfil</a>
+    </p>
+</section>
     </main>
 
     
 </body>
+<script src="script.js"></script>
 </html>

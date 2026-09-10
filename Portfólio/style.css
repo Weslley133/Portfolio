@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+body {
+    box-sizing: border-box;
+    /*background: linear-gradient(135deg, #000000 0%, #0052d4 100%);*/
+    background: radial-gradient(circle, #002244 0%, #000000 100%);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+   height:100vh;
+   background-color: #000;
+   padding: 30px 15px;
+   box-shhadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #002244;
+    padding-bottom: 10px;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.nav-list li a{
+text-decoration: none;
+font-size: 16px;
+display: block;
+padding: 10px 15px;
+transition: 0.3s;
+border-radius: 6px;
+
+}
+.nav-list li a:hover{
+  background-color: #002244;
+  color: #fff;
+}
+
+
+main {
+margin-left: 220px;
+padding: 40px;
+}
+.escondido {
+    display: none !important;
+}
+
+.nav-list li {
+    width: 100%;
+}
+
+.inicio {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    gap: 10px;
+}
+
+.escondido  p {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 20px;
+   
+}
+.escondido  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+.escondido  h2 {
+    font-size: 24px;
+    margin-bottom: 400;
+    font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #002244;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    align-self: center;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+
+.sobre {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.sobre p {
+    max-width: 800px;
+    line-height: 1.7;
+    color: #d0d0d0;
+    font-size: 18px;
+}
+.sobre h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.tecnologia {
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+}
+
+.tecnologia-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    transition: 0.3s;
+    border: 1px solid #1c3b5a;
+}
+
+.titulo-tecnologia {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.tecnologia-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tencnologia-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #bdbdbd;
+}
+
+.tecnologia-card:hover {
+   transform: translateY(-5px);
+   background-color: #002244;
+}
+
+.projetos {
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projetos h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.projeto-card {
+    background-color: #111;
+    padding: 25px;
+    border-radius: 8px;
+    width: 300px;
+    transition: 0.3s;
+    border: 1px solid #1c3b5a;
+}
+
+.projeto-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.projeto-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #bdbdbd;
+    margin-bottom: 20px;
+}
+
+.projeto-card span {
+    font-size: 13px;
+    color: #8fa8bd;
+}
+.projeto-card:hover {
+    transform: translateY(-5px);
+    background-color: #002244;
+}
+
+.projeto-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.projeto-links a {
+    text-decoration: none;
+    padding: 8px 14px;
+    border: 1px solid #1c3b5a;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.projeto-links a:hover {
+    background-color: #fff;
+    color: #002244;
+}
+
+.Contato h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+
+}
+
+.Contato p {
+    background-color: #111;
+    padding: 10px;
+    border-radius: 5px;
+   
+    margin: 10px 0;
+    max-width: 300px;
+    border: 1px solid #002244;
+    transition: 0.2s;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.Contato p:hover {
+    transform: translateY(-5px);
+    background-color: #002244;
+}
